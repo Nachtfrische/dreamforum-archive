@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-27T22:41:42.536Z",
+  "title": "Design System: DreamForum Archive",
+  "extensions": {
+    "colorMeta": {
+      "page-sky": {
+        "role": "neutral",
+        "displayName": "Seitenhimmel",
+        "canonical": "#426c82",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #426c82)",
+          "color-mix(in oklch, #000 54%, #426c82)",
+          "color-mix(in oklch, #000 36%, #426c82)",
+          "color-mix(in oklch, #000 18%, #426c82)",
+          "#426c82",
+          "color-mix(in oklch, #fff 24%, #426c82)",
+          "color-mix(in oklch, #fff 52%, #426c82)",
+          "color-mix(in oklch, #fff 78%, #426c82)"
+        ]
+      },
+      "shell": {
+        "role": "neutral",
+        "displayName": "Forenrahmen",
+        "canonical": "#080b10",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #080b10)",
+          "color-mix(in oklch, #000 54%, #080b10)",
+          "color-mix(in oklch, #000 36%, #080b10)",
+          "color-mix(in oklch, #000 18%, #080b10)",
+          "#080b10",
+          "color-mix(in oklch, #fff 24%, #080b10)",
+          "color-mix(in oklch, #fff 52%, #080b10)",
+          "color-mix(in oklch, #fff 78%, #080b10)"
+        ]
+      },
+      "stage": {
+        "role": "neutral",
+        "displayName": "Archivbühne",
+        "canonical": "#0b0e14",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #0b0e14)",
+          "color-mix(in oklch, #000 54%, #0b0e14)",
+          "color-mix(in oklch, #000 36%, #0b0e14)",
+          "color-mix(in oklch, #000 18%, #0b0e14)",
+          "#0b0e14",
+          "color-mix(in oklch, #fff 24%, #0b0e14)",
+          "color-mix(in oklch, #fff 52%, #0b0e14)",
+          "color-mix(in oklch, #fff 78%, #0b0e14)"
+        ]
+      },
+      "row": {
+        "role": "neutral",
+        "displayName": "Tabellenzeile",
+        "canonical": "#0f151c",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #0f151c)",
+          "color-mix(in oklch, #000 54%, #0f151c)",
+          "color-mix(in oklch, #000 36%, #0f151c)",
+          "color-mix(in oklch, #000 18%, #0f151c)",
+          "#0f151c",
+          "color-mix(in oklch, #fff 24%, #0f151c)",
+          "color-mix(in oklch, #fff 52%, #0f151c)",
+          "color-mix(in oklch, #fff 78%, #0f151c)"
+        ]
+      },
+      "row-alt": {
+        "role": "neutral",
+        "displayName": "Alternativzeile",
+        "canonical": "#0f131c",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #0f131c)",
+          "color-mix(in oklch, #000 54%, #0f131c)",
+          "color-mix(in oklch, #000 36%, #0f131c)",
+          "color-mix(in oklch, #000 18%, #0f131c)",
+          "#0f131c",
+          "color-mix(in oklch, #fff 24%, #0f131c)",
+          "color-mix(in oklch, #fff 52%, #0f131c)",
+          "color-mix(in oklch, #fff 78%, #0f131c)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "canonical": "#1f2325",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #1f2325)",
+          "color-mix(in oklch, #000 54%, #1f2325)",
+          "color-mix(in oklch, #000 36%, #1f2325)",
+          "color-mix(in oklch, #000 18%, #1f2325)",
+          "#1f2325",
+          "color-mix(in oklch, #fff 24%, #1f2325)",
+          "color-mix(in oklch, #fff 52%, #1f2325)",
+          "color-mix(in oklch, #fff 78%, #1f2325)"
+        ]
+      },
+      "footer-panel": {
+        "role": "neutral",
+        "displayName": "Footerpanel",
+        "canonical": "#0a0f15",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #0a0f15)",
+          "color-mix(in oklch, #000 54%, #0a0f15)",
+          "color-mix(in oklch, #000 36%, #0a0f15)",
+          "color-mix(in oklch, #000 18%, #0a0f15)",
+          "#0a0f15",
+          "color-mix(in oklch, #fff 24%, #0a0f15)",
+          "color-mix(in oklch, #fff 52%, #0a0f15)",
+          "color-mix(in oklch, #fff 78%, #0a0f15)"
+        ]
+      },
+      "heading-top": {
+        "role": "tertiary",
+        "displayName": "Kategoriekopf oben",
+        "canonical": "#063b58",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #063b58)",
+          "color-mix(in oklch, #000 54%, #063b58)",
+          "color-mix(in oklch, #000 36%, #063b58)",
+          "color-mix(in oklch, #000 18%, #063b58)",
+          "#063b58",
+          "color-mix(in oklch, #fff 24%, #063b58)",
+          "color-mix(in oklch, #fff 52%, #063b58)",
+          "color-mix(in oklch, #fff 78%, #063b58)"
+        ]
+      },
+      "heading-bottom": {
+        "role": "tertiary",
+        "displayName": "Kategoriekopf unten",
+        "canonical": "#001724",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #001724)",
+          "color-mix(in oklch, #000 54%, #001724)",
+          "color-mix(in oklch, #000 36%, #001724)",
+          "color-mix(in oklch, #000 18%, #001724)",
+          "#001724",
+          "color-mix(in oklch, #fff 24%, #001724)",
+          "color-mix(in oklch, #fff 52%, #001724)",
+          "color-mix(in oklch, #fff 78%, #001724)"
+        ]
+      },
+      "cyan": {
+        "role": "primary",
+        "displayName": "Cyan-Fokus",
+        "canonical": "#3cbcff",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #3cbcff)",
+          "color-mix(in oklch, #000 54%, #3cbcff)",
+          "color-mix(in oklch, #000 36%, #3cbcff)",
+          "color-mix(in oklch, #000 18%, #3cbcff)",
+          "#3cbcff",
+          "color-mix(in oklch, #fff 24%, #3cbcff)",
+          "color-mix(in oklch, #fff 52%, #3cbcff)",
+          "color-mix(in oklch, #fff 78%, #3cbcff)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Haupttext",
+        "canonical": "#a9dcf0",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #a9dcf0)",
+          "color-mix(in oklch, #000 54%, #a9dcf0)",
+          "color-mix(in oklch, #000 36%, #a9dcf0)",
+          "color-mix(in oklch, #000 18%, #a9dcf0)",
+          "#a9dcf0",
+          "color-mix(in oklch, #fff 24%, #a9dcf0)",
+          "color-mix(in oklch, #fff 52%, #a9dcf0)",
+          "color-mix(in oklch, #fff 78%, #a9dcf0)"
+        ]
+      },
+      "text-strong": {
+        "role": "neutral",
+        "displayName": "Starker Text",
+        "canonical": "#dceeff",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #dceeff)",
+          "color-mix(in oklch, #000 54%, #dceeff)",
+          "color-mix(in oklch, #000 36%, #dceeff)",
+          "color-mix(in oklch, #000 18%, #dceeff)",
+          "#dceeff",
+          "color-mix(in oklch, #fff 24%, #dceeff)",
+          "color-mix(in oklch, #fff 52%, #dceeff)",
+          "color-mix(in oklch, #fff 78%, #dceeff)"
+        ]
+      },
+      "link": {
+        "role": "secondary",
+        "displayName": "Linktext",
+        "canonical": "#b2b7db",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #b2b7db)",
+          "color-mix(in oklch, #000 54%, #b2b7db)",
+          "color-mix(in oklch, #000 36%, #b2b7db)",
+          "color-mix(in oklch, #000 18%, #b2b7db)",
+          "#b2b7db",
+          "color-mix(in oklch, #fff 24%, #b2b7db)",
+          "color-mix(in oklch, #fff 52%, #b2b7db)",
+          "color-mix(in oklch, #fff 78%, #b2b7db)"
+        ]
+      },
+      "link-bright": {
+        "role": "secondary",
+        "displayName": "Heller Link",
+        "canonical": "#72bfff",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #72bfff)",
+          "color-mix(in oklch, #000 54%, #72bfff)",
+          "color-mix(in oklch, #000 36%, #72bfff)",
+          "color-mix(in oklch, #000 18%, #72bfff)",
+          "#72bfff",
+          "color-mix(in oklch, #fff 24%, #72bfff)",
+          "color-mix(in oklch, #fff 52%, #72bfff)",
+          "color-mix(in oklch, #fff 78%, #72bfff)"
+        ]
+      },
+      "metadata": {
+        "role": "neutral",
+        "displayName": "Metadaten",
+        "canonical": "#7f909d",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #7f909d)",
+          "color-mix(in oklch, #000 54%, #7f909d)",
+          "color-mix(in oklch, #000 36%, #7f909d)",
+          "color-mix(in oklch, #000 18%, #7f909d)",
+          "#7f909d",
+          "color-mix(in oklch, #fff 24%, #7f909d)",
+          "color-mix(in oklch, #fff 52%, #7f909d)",
+          "color-mix(in oklch, #fff 78%, #7f909d)"
+        ]
+      },
+      "button": {
+        "role": "primary",
+        "displayName": "Aktionsblau",
+        "canonical": "#326699",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #326699)",
+          "color-mix(in oklch, #000 54%, #326699)",
+          "color-mix(in oklch, #000 36%, #326699)",
+          "color-mix(in oklch, #000 18%, #326699)",
+          "#326699",
+          "color-mix(in oklch, #fff 24%, #326699)",
+          "color-mix(in oklch, #fff 52%, #326699)",
+          "color-mix(in oklch, #fff 78%, #326699)"
+        ]
+      },
+      "button-hover": {
+        "role": "primary",
+        "displayName": "Hoverblau",
+        "canonical": "#3f7fbf",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #3f7fbf)",
+          "color-mix(in oklch, #000 54%, #3f7fbf)",
+          "color-mix(in oklch, #000 36%, #3f7fbf)",
+          "color-mix(in oklch, #000 18%, #3f7fbf)",
+          "#3f7fbf",
+          "color-mix(in oklch, #fff 24%, #3f7fbf)",
+          "color-mix(in oklch, #fff 52%, #3f7fbf)",
+          "color-mix(in oklch, #fff 78%, #3f7fbf)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Tabellenlinie",
+        "canonical": "#46505a",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #46505a)",
+          "color-mix(in oklch, #000 54%, #46505a)",
+          "color-mix(in oklch, #000 36%, #46505a)",
+          "color-mix(in oklch, #000 18%, #46505a)",
+          "#46505a",
+          "color-mix(in oklch, #fff 24%, #46505a)",
+          "color-mix(in oklch, #fff 52%, #46505a)",
+          "color-mix(in oklch, #fff 78%, #46505a)"
+        ]
+      },
+      "line-soft": {
+        "role": "neutral",
+        "displayName": "Weiche Linie",
+        "canonical": "#26313a",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #26313a)",
+          "color-mix(in oklch, #000 54%, #26313a)",
+          "color-mix(in oklch, #000 36%, #26313a)",
+          "color-mix(in oklch, #000 18%, #26313a)",
+          "#26313a",
+          "color-mix(in oklch, #fff 24%, #26313a)",
+          "color-mix(in oklch, #fff 52%, #26313a)",
+          "color-mix(in oklch, #fff 78%, #26313a)"
+        ]
+      },
+      "like-positive": {
+        "role": "tertiary",
+        "displayName": "Positives Like",
+        "canonical": "#08751a",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #08751a)",
+          "color-mix(in oklch, #000 54%, #08751a)",
+          "color-mix(in oklch, #000 36%, #08751a)",
+          "color-mix(in oklch, #000 18%, #08751a)",
+          "#08751a",
+          "color-mix(in oklch, #fff 24%, #08751a)",
+          "color-mix(in oklch, #fff 52%, #08751a)",
+          "color-mix(in oklch, #fff 78%, #08751a)"
+        ]
+      },
+      "like-negative": {
+        "role": "tertiary",
+        "displayName": "Negatives Like",
+        "canonical": "#d20f1b",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #d20f1b)",
+          "color-mix(in oklch, #000 54%, #d20f1b)",
+          "color-mix(in oklch, #000 36%, #d20f1b)",
+          "color-mix(in oklch, #000 18%, #d20f1b)",
+          "#d20f1b",
+          "color-mix(in oklch, #fff 24%, #d20f1b)",
+          "color-mix(in oklch, #fff 52%, #d20f1b)",
+          "color-mix(in oklch, #fff 78%, #d20f1b)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Weiß",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #ffffff)",
+          "color-mix(in oklch, #000 54%, #ffffff)",
+          "color-mix(in oklch, #000 36%, #ffffff)",
+          "color-mix(in oklch, #000 18%, #ffffff)",
+          "#ffffff",
+          "color-mix(in oklch, #fff 24%, #ffffff)",
+          "color-mix(in oklch, #fff 52%, #ffffff)",
+          "color-mix(in oklch, #fff 78%, #ffffff)"
+        ]
+      },
+      "black": {
+        "role": "neutral",
+        "displayName": "Schwarz",
+        "canonical": "#000000",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #000000)",
+          "color-mix(in oklch, #000 54%, #000000)",
+          "color-mix(in oklch, #000 36%, #000000)",
+          "color-mix(in oklch, #000 18%, #000000)",
+          "#000000",
+          "color-mix(in oklch, #fff 24%, #000000)",
+          "color-mix(in oklch, #fff 52%, #000000)",
+          "color-mix(in oklch, #fff 78%, #000000)"
+        ]
+      },
+      "counter-label": {
+        "role": "neutral",
+        "displayName": "Zählerlabel",
+        "canonical": "#0b192f",
+        "tonalRamp": [
+          "color-mix(in oklch, #000 72%, #0b192f)",
+          "color-mix(in oklch, #000 54%, #0b192f)",
+          "color-mix(in oklch, #000 36%, #0b192f)",
+          "color-mix(in oklch, #000 18%, #0b192f)",
+          "#0b192f",
+          "color-mix(in oklch, #fff 24%, #0b192f)",
+          "color-mix(in oklch, #fff 52%, #0b192f)",
+          "color-mix(in oklch, #fff 78%, #0b192f)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "Body",
+        "purpose": "Trebuchet-Grundsatz für kompakte Tabellen, Controls und UI-Texte."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Trebuchet 700 für Panelköpfe, Navigation und starke Zeilentitel."
+      },
+      "page-title": {
+        "displayName": "Page Title",
+        "purpose": "Trebuchet 700 für Seiten- und Abschnittstitel."
+      },
+      "post-body": {
+        "displayName": "Post Body",
+        "purpose": "Leicht verdichteter Lesetext in .92rem/1.48 mit kompakten Absatzabständen."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Datum, Statistiken, Bearbeitung und Reaktionsdetails."
+      }
+    },
+    "shadows": [
+      {
+        "name": "forum-frame",
+        "value": "0 0 22px rgba(0,0,0,.75)",
+        "purpose": "Einziger Umgebungsschatten um den vollständigen Desktop-Forenrahmen."
+      }
+    ],
+    "motion": [
+      {
+        "name": "row-state",
+        "value": "120ms ease",
+        "purpose": "Kurzer Farbwechsel für interaktive Tabellenzeilen und Controls."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "full-width",
+        "value": "800px"
+      },
+      {
+        "name": "mobile",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Historischer Banner",
+      "kind": "custom",
+      "refersTo": "archive-banner",
+      "description": "Der extrahierte Dream-Banner eröffnet unverzerrt jede Route zwischen Utilityleiste und Hauptnavigation.",
+      "html": "<a class=\"ds-banner\" href=\"#/\"><img src=\"assets/dream-banner.png\" alt=\"DreamForum\"></a>",
+      "css": ".ds-banner{display:block;width:100%;background:#030609}.ds-banner img{display:block;width:100%;aspect-ratio:5/1;object-fit:contain}"
+    },
+    {
+      "name": "Klassische Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Kantige Hauptnavigation für Forum, Mitglieder, Shoutbox und Suche.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Hauptnavigation\"><a class=\"ds-nav-item is-active\" href=\"#/\">Forum</a><a class=\"ds-nav-item\" href=\"#/members\">Mitglieder</a><a class=\"ds-nav-item\" href=\"#/shoutbox\">Shoutbox</a><a class=\"ds-nav-item\" href=\"#/search\">Suche</a></nav>",
+      "css": ".ds-nav{display:flex;overflow-x:auto;background:#080b10;border:1px solid #000}.ds-nav-item{min-height:44px;display:grid;place-items:center;padding:0 18px;color:#a9dcf0;background:#0f131c;border-right:1px solid #000;font:700 1rem/1.2 \"Trebuchet MS\",Arial,sans-serif;text-decoration:none;white-space:nowrap}.ds-nav-item.is-active,.ds-nav-item:focus-visible{color:#fff;background:#001724;outline:2px solid #3cbcff;outline-offset:-2px}"
+    },
+    {
+      "name": "Shoutbox-Verlauf",
+      "kind": "custom",
+      "refersTo": "shout-row",
+      "description": "Kompakte Gesprächszeilen in einem intern scrollenden Bereich von höchstens min(68vh, 640px).",
+      "html": "<section class=\"ds-shoutbox\"><article class=\"ds-shout\"><strong>Ada</strong><time>12.03.2017, 20:14</time><p>Kurzer archivierter Shout.</p></article><article class=\"ds-shout\"><strong>Bea</strong><time>12.03.2017, 20:18</time><p>Der Verlauf bleibt im Panel scrollbar.</p></article></section>",
+      "css": ".ds-shoutbox{max-height:min(68vh,640px);overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;color:#a9dcf0;background:#0f151c;border:1px solid #000;font:13px/1.28 \"Trebuchet MS\",Arial,sans-serif}.ds-shout{display:grid;grid-template-columns:130px minmax(0,1fr);gap:4px 14px;padding:9px 10px;border-bottom:1px solid #000}.ds-shout strong{color:#b2b7db}.ds-shout time{color:#7f909d;font-size:.68rem}.ds-shout p{grid-column:2;margin:0 0 .45em}"
+    },
+    {
+      "name": "Startseitenzeile",
+      "kind": "custom",
+      "refersTo": "latest-row",
+      "description": "Eine der 16 letzten Threadzeilen mit Thema, Antworten, Like-Saldo, Zugriffen und letzter Antwort; Boardtitel werden nicht wiederholt.",
+      "html": "<article class=\"ds-latest-row\"><a href=\"#/thread/42\">Beispielthema</a><span>12 Antworten</span><strong>+4 Likes</strong><span>380 Zugriffe</span><span>Letzte Antwort · heute</span></article>",
+      "css": ".ds-latest-row{min-height:59px;display:grid;grid-template-columns:minmax(0,1fr) repeat(4,auto);gap:12px;align-items:center;padding:6px 7px;color:#7f909d;background:#0f151c;border:1px solid #000;font:13px/1.28 \"Trebuchet MS\",Arial,sans-serif}.ds-latest-row a{color:#b2b7db;font-weight:700}.ds-latest-row strong{color:#fff;background:#08751a;padding:3px 6px;border-radius:11px}"
+    },
+    {
+      "name": "Forenregistereintrag",
+      "kind": "custom",
+      "refersTo": "board-entry",
+      "description": "Unterforum mit Symbol, ehrlichem Titel, Beschreibung, Threadzahl und letzter Aktivität.",
+      "html": "<article class=\"ds-board\"><span class=\"ds-board-icon\" aria-hidden=\"true\">◆</span><div><a href=\"#/board/12\">Archivbereich ohne überlieferten Titel</a><p>Öffentliches Unterforum aus dem Archiv.</p></div><span>38 Threads</span><time>2017</time></article>",
+      "css": ".ds-board{min-height:58px;display:grid;grid-template-columns:30px minmax(0,1fr) auto auto;gap:10px;align-items:center;padding:7px 10px;color:#7f909d;background:#0f151c;border:1px solid #000;font:13px/1.28 \"Trebuchet MS\",Arial,sans-serif}.ds-board a{color:#b2b7db;font-weight:700}.ds-board p{margin:2px 0 0}.ds-board-icon{color:#3cbcff}"
+    },
+    {
+      "name": "Suchfeld",
+      "kind": "input",
+      "refersTo": "search-control",
+      "description": "Dunkel konturiertes 48-Pixel-Feld mit starkem hellen Eingabetext, gut sichtbarem Platzhalter und Cyan-Fokus.",
+      "html": "<label class=\"ds-search\"><span>Archiv durchsuchen</span><input type=\"search\" placeholder=\"Suchbegriff\"><button>Suche</button></label>",
+      "css": ".ds-search{display:grid;grid-template-columns:1fr auto;gap:6px;color:#7f909d;font:13px/1.28 \"Trebuchet MS\",Arial,sans-serif}.ds-search>span{grid-column:1/-1}.ds-search input,.ds-search button{min-height:48px;border:1px solid #000;border-radius:0}.ds-search input{padding:0 13px;color:#dceeff;background:#151b24}.ds-search input::placeholder{color:#93a8b8;opacity:1}.ds-search button{padding:0 16px;color:#fff;background:#326699}.ds-search :focus-visible{outline:2px solid #3cbcff;outline-offset:1px}"
+    },
+    {
+      "name": "Nummerierter Pager",
+      "kind": "nav",
+      "refersTo": "pager-page",
+      "description": "Identischer Thread-Pager ober- und unterhalb der Beiträge mit Schritten, Seitenzahlen und Ellipsen.",
+      "html": "<nav class=\"ds-pager\" aria-label=\"Seiten\"><span aria-disabled=\"true\">Zurück</span><a href=\"?page=1\" aria-current=\"page\">1</a><a href=\"?page=2\">2</a><span>…</span><a href=\"?page=9\">9</a><a href=\"?page=2\">Weiter</a></nav>",
+      "css": ".ds-pager{display:flex;flex-wrap:wrap;gap:4px}.ds-pager>*{min-width:29px;min-height:29px;display:grid;place-items:center;padding:5px 9px;color:#b2b7db;background:#151b24;border:1px solid #000;border-radius:0;font:400 .68rem/1.2 \"Trebuchet MS\",Arial,sans-serif}.ds-pager [aria-current=\"page\"]{color:#fff;background:#3f7fbf}.ds-pager [aria-disabled=\"true\"]{color:#7f909d}"
+    },
+    {
+      "name": "Beitrag mit Autorenspalte",
+      "kind": "custom",
+      "refersTo": "post",
+      "description": "155-Pixel-Autorenspalte neben dichtem Beitragstext; eindeutige historische Codes erscheinen als Unicode-Emoji, nicht treu abbildbare Codes als Platzhalter.",
+      "html": "<article class=\"ds-post\"><aside><strong>Name</strong><img src=\"avatar.svg\" alt=\"\"><em>Moderator</em><dl><dt>Likes erhalten</dt><dd>82</dd><dt>Punkte</dt><dd>1.420</dd><dt>Beiträge</dt><dd>318</dd><dt>Registriert</dt><dd>2014</dd></dl></aside><section><header><b>Beitragstitel</b><time>12.03.2017, 20:14</time><span>+3</span><a href=\"#post-41\">#41</a></header><p>Archivierter Beitragstext.</p></section></article>",
+      "css": ".ds-post{display:grid;grid-template-columns:155px minmax(0,1fr);color:#a9dcf0;background:#0f131c;border:1px solid #000;font:13px/1.28 \"Trebuchet MS\",Arial,sans-serif}.ds-post aside{padding:10px;background:#1f2325;border-right:1px solid #46505a}.ds-post aside img{display:block;width:96px;height:96px;margin:8px auto}.ds-post dl{display:grid;grid-template-columns:1fr auto;margin:8px 0 0}.ds-post dt,.ds-post dd{margin:0;padding:3px 0;border-top:1px solid #26313a}.ds-post section{min-width:0}.ds-post header{display:flex;gap:8px;align-items:center;padding:7px 9px;border-bottom:1px solid #46505a}.ds-post header time{margin-right:auto;color:#7f909d}.ds-post section>p{max-width:none;min-height:150px;margin:0;padding:16px 16px 24px;font-size:.92rem;line-height:1.48}"
+    },
+    {
+      "name": "Öffentlicher Aufrufzähler",
+      "kind": "custom",
+      "refersTo": "visitor-counter",
+      "description": "20-Pixel-hohes visitorbadge.io-SVG im Footer; öffentlich, ohne Schlüssel oder Backend und ohne Referrer.",
+      "html": "<p class=\"ds-counter\"><img src=\"https://api.visitorbadge.io/api/VisitorHit?user=Nachtfrische&amp;repo=dreamforum-archive&amp;label=Archivaufrufe&amp;labelColor=%230b192f&amp;countColor=%2372bfff\" alt=\"Öffentlicher Zähler der Archivaufrufe\" referrerpolicy=\"no-referrer\" decoding=\"async\"></p>",
+      "css": ".ds-counter{display:flex;align-items:center;margin:0;padding:0;background:#0a0f15}.ds-counter img{display:block;width:auto;height:20px}"
+    },
+    {
+      "name": "Mobile Leseposition",
+      "kind": "custom",
+      "refersTo": "read-position-mobile",
+      "description": "Lokale Lesemarkierung pro Thread; mobil volle Aktionszeile und mindestens 44 Pixel hoch.",
+      "html": "<button class=\"ds-read-position\" type=\"button\">Bis hier gelesen</button>",
+      "css": ".ds-read-position{min-height:44px;padding:6px 10px;color:#fff;background:#326699;border:1px solid #000;border-radius:0;font:400 .68rem/1.2 \"Trebuchet MS\",Arial,sans-serif}.ds-read-position:hover{background:#3f7fbf}.ds-read-position:focus-visible{outline:2px solid #3cbcff;outline-offset:2px}@media(max-width:560px){.ds-read-position{width:100%}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Das konservierte Forum",
+    "overview": "DreamForum Archive rekonstruiert die belegte WoltLab-/DreamForum-Oberfläche von 2016/2017 als funktional bereinigtes, vollständig schreibgeschütztes Archiv. Der zentrierte Forenrahmen, Schwarzblau/Cyan, Trebuchet, enge Tabellen und extrahierte historische Grafiken lassen das Forum vertraut wirken, ohne Login, Posting, Administration oder andere tote Live-Funktionen vorzutäuschen.\n\nAlle öffentlichen Daten bleiben normal durchsuchbar und verlinkt: Boards, Threads, Beiträge, Mitglieder, Profile, Shoutbox und Kommentare teilen eine konsistente Route- und Leselogik. Der Originalbanner steht auf jeder Seite über der Navigation. Datenschutz ist Teil des Produkts: Tabellen privater Nachrichten sowie die geschützten Boards `230` und `231` („Private Anliegen“) sind vom Export und der Suche ausgeschlossen und erhalten eine eigene erklärende Archivseite.\n\nDie Oberfläche zeigt keine technischen Datenbankkennungen. Fortlaufende Beitragsnummern bleiben als verständliche Lesereferenz innerhalb eines Threads erhalten, während interne Board-, Thread-, Post- und Nutzer-IDs ausschließlich Routing und Datenzuordnung dienen.",
+    "keyCharacteristics": [
+      "Ein einziger klassischer WoltLab-Leseraum in einem maximal 1000 Pixel breiten Forenrahmen.",
+      "Trebuchet, Schwarzblau, Cyan, harte Tabellenlinien und extrahierte historische Rastergrafiken.",
+      "Shoutbox, 16 letzte Threads und vollständige Forenübersicht bilden die Startseite.",
+      "Threads verwenden echte Seitenlogik, reichhaltige Autorenspalten und nachvollziehbare Reaktions- und Bearbeitungshistorie.",
+      "Kompakte, intern scrollende Shoutbox-Verläufe und automatisch angewendete Sortierungen halten dichte Archive bedienbar.",
+      "Der öffentliche Datenstand umfasst `95` Boards, `4.393` Threads, `61.509` Beiträge, `2.926` Tags und `42.320` Reaktionen.",
+      "`14.978` historische Emoticon-Vorkommen sind als Unicode-Emoji lesbar; `60` nicht treu abbildbare benutzerdefinierte Codes bleiben ehrliche Platzhalter.",
+      "Originalbanner und Teamfarben bewahren historische Identität; deterministische SVG-Avatare kennzeichnen ehrlich die fehlenden Bilddateien."
+    ],
+    "rules": [
+      {
+        "name": "Die Cyan-Führungsregel",
+        "body": "Cyan markiert Fokus, aktive Navigation und archivische Interaktion; Weiß dient Lesespitzen, Grün und Rot ausschließlich Reaktionswerten.",
+        "section": "colors"
+      },
+      {
+        "name": "Die Trebuchet-Regel",
+        "body": "Die gesamte sichtbare Oberfläche bleibt bei Trebuchet/Arial; abweichende Displayfonts oder archivfremde UI-Schriften brechen die Rekonstruktion.",
+        "section": "typography"
+      },
+      {
+        "name": "Die eine-Schatten-Regel",
+        "body": "Panels, Posts und Controls schweben nie einzeln; der einzige Schatten gehört dem gesamten Forenrahmen.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do bewahre den 1000-Pixel-Forenrahmen, Trebuchet, Schwarzblau/Cyan und die extrahierten historischen Grafiken.",
+      "Do zeige den Originalbanner auf jeder Route und die Startseite in der Reihenfolge Shoutbox, 16 letzte Threads, alle Foren.",
+      "Do halte Threads bei 20 Beiträgen pro Seite und den nummerierten Pager ober- wie unterhalb der Posts.",
+      "Do zeige vollständige positive und negative Nutzerattribution sowie Editor, Zeit und Grund bei Bearbeitungen.",
+      "Do halte Autorendaten, Leseposition und Privacy-Ausschlüsse sichtbar und ehrlich.",
+      "Do wende Board- und Mitgliedersortierungen direkt an und halte Sucheingaben auf dem dunklen Feld kontraststark.",
+      "Do übersetze nur historisch eindeutig zuordenbare Codes in Unicode-Emoji und erhalte alle übrigen als beschriftete Platzhalter.",
+      "Do halte private Nachrichtentabellen und die geschützten Boards `230` und `231` vollständig außerhalb des öffentlichen Exports und Suchindexes.",
+      "Do verwende für den Footer ausschließlich den öffentlichen SVG-Zähler ohne Schlüssel oder eigenes Backend und unterdrücke den Referrer."
+    ],
+    "donts": [
+      "Don't füge alternative Ansichten oder Darstellungsmodi hinzu.",
+      "Don't verstecke den historischen Banner auf Unterrouten oder ersetze die extrahierten Rastergrafiken durch Nachzeichnungen.",
+      "Don't zeige technische Boardkennzeichnungen, erfundene Titel, Schreibaktionen, Login oder private Nachrichten.",
+      "Don't wiederhole den Boardtitel in jeder Threadzeile oder gib interne Datenbankkennungen als sichtbare UI-Metadaten aus.",
+      "Don't kürze Reaktionsnutzer dauerhaft; lange Gruppen dürfen nur hinter einem aufklappbaren vollständigen Nachweis liegen.",
+      "Don't verkleinere die mobile Lesepositionsaktion unter `44px` oder entferne sichtbare Tastaturfokusringe.",
+      "Don't veröffentliche ohne erfolgreichen `check.py`-Lauf oder lade andere Pfade als `site/` in das GitHub-Pages-Artefakt."
+    ]
+  }
+}

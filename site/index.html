@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de" data-theme="classic">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b192f">
+  <meta name="description" content="Das öffentliche, schreibgeschützte Archiv des ehemaligen DreamForums.">
+  <title>DreamForum Archive</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!--
+  THESIS: Eine funktionsbereinigte klassische Forumshülle macht den öffentlichen Dump wie ein echtes, aber vollständig schreibgeschütztes WoltLab-Archiv lesbar.
+  OWN-WORLD: Schwarzblau, Cyan, Trebuchet, enge Tabellen, Originalbanner und die belegte Beitragsstruktur der historischen DreamForum-Snapshots.
+  STORY: Leser landen direkt im Archiv, navigieren über Forum, Mitglieder, Shoutbox und Suche und lesen Threads mit Seiten, Reaktionen und Bearbeitungshistorie.
+  FIRST VIEWPORT: Schmaler 1000px-Rahmen, Banner, horizontale Navigation, zuerst die Shoutbox und danach die letzten 16 Beiträge.
+  FORM: Eine einzige klassische Read-only-Archivmaschine · historische HTML-Snapshots von 2016/2017 als feste Referenz.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+  -->
+  <a class="skip-link" href="#archive-main">Zum Inhalt springen</a>
+  <div class="archive-shell">
+    <div class="site-stage">
+      <div class="classic-utility"><span>DREAM Gaming Community Forum · Nur-Lesen-Archiv</span><span>Datenstand 2018</span></div>
+      <a class="archive-banner" href="#/" aria-label="DreamForum Archiv – zur Startseite">
+        <img src="assets/dream-banner.png" alt="Dream – dream, we love gaming" width="1280" height="256" fetchpriority="high">
+      </a>
+      <nav class="classic-nav" aria-label="Hauptnavigation im klassischen Design">
+        <a href="#/" data-nav="home">Forum</a>
+        <a href="#/users" data-nav="users">Mitglieder</a>
+        <a href="#/extras" data-nav="extras">Shoutbox</a>
+        <a href="#/search" data-nav="search">Suche</a>
+      </nav>
+      <main id="archive-main" tabindex="-1">
+        <div class="loading-screen" role="status"><span class="loading-mark" aria-hidden="true"></span><p>Archiv wird geöffnet …</p></div>
+      </main>
+      <footer class="site-footer"><p><strong>DreamForum Archive</strong> · Quelle: Datenbanksicherung bis 2018</p><p><a href="#/messages">Datenschutz &amp; private Nachrichten</a></p><p class="counter-line"><img src="https://api.visitorbadge.io/api/VisitorHit?user=Nachtfrische&amp;repo=dreamforum-archive&amp;label=Archivaufrufe&amp;labelColor=%230b192f&amp;countColor=%2372bfff" alt="Öffentlicher Zähler der Archivaufrufe" referrerpolicy="no-referrer" decoding="async"></p></footer>
+    </div>
+  </div>
+  <div class="live-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
