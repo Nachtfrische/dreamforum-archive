@@ -148,7 +148,7 @@ function threadRow(thread) {
 }
 
 function classicHome() {
-  const shouts = (extras?.shouts || []).slice(0, 6);
+  const shouts = (extras?.shouts || []).slice(0, 20).reverse();
   const latest = [...archive.threads].sort((a, b) => b.lastPostTime - a.lastPostTime).slice(0, 16);
   return `<section class="classic-home">
     <section class="classic-panel classic-shoutbox"><h2>Shoutbox</h2><div>${shouts.map((item) => `<article class="classic-shout">${avatar(item.userID, item.username)}<div><div class="classic-shout-meta">${userName(item.userID, item.username)}<time>${formatDate(item.time)}</time></div><div class="post-content">${item.bodyHtml || "<p>(Leerer Eintrag)</p>"}</div></div></article>`).join("")}</div><a class="classic-panel-link" href="#/extras">Alle Shouts anzeigen</a></section>
@@ -229,6 +229,8 @@ function pager(page, total, base, query = {}, perPage = pageSize) {
 function renderHome() {
   main.innerHTML = `${classicHome()}
   <section class="content-section forum-preview"><div class="section-heading"><h2>Forenübersicht</h2><p>Alle Bereiche, Unterforen und zuletzt aktiven Threads direkt auf einen Blick.</p></div><div class="board-list">${boardRows()}</div></section>`;
+  const shouts = main.querySelector(".classic-shoutbox > div");
+  shouts.scrollTop = shouts.scrollHeight;
 }
 
 function renderBoards() {
@@ -386,8 +388,12 @@ async function renderUser(userId) {
 async function renderExtras(query) {
   const payload = extras || await getJson("data/extras.json");
   const tab = query.get("tab") === "comments" ? "comments" : "shouts";
-  const items = tab === "comments" ? payload.comments : payload.shouts;
+  const items = tab === "comments" ? payload.comments : [...payload.shouts].reverse();
   main.innerHTML = `<section class="page-banner"><div class="page-shell">${pageHeading("Nebenräume", "Shoutbox und Kommentare – die kürzeren Gespräche neben den eigentlichen Boards.")}</div></section><section class="page-shell"><div class="tabs" aria-label="Nebenraum auswählen"><button class="${tab === "shouts" ? "active" : ""}" data-extra-tab="shouts">Shoutbox (${formatNumber(payload.shouts.length)})</button><button class="${tab === "comments" ? "active" : ""}" data-extra-tab="comments">Kommentare (${formatNumber(payload.comments.length)})</button></div><div class="conversation-list ${tab === "shouts" ? "shout-list" : "comment-list"}">${items.map((item) => `<article class="conversation-fragment"><div>${avatar(item.userID, item.username)}${userName(item.userID, item.username)}<div class="muted">${formatDate(item.time)}</div></div><div class="post-content">${item.bodyHtml || "<p>(Leerer Eintrag)</p>"}${item.responses?.map((response) => `<blockquote>${userName(response.userID, response.username)} · ${formatDate(response.time)}<div>${response.bodyHtml}</div></blockquote>`).join("") || ""}</div></article>`).join("") || '<div class="empty-state"><p>Keine Einträge.</p></div>'}</div></section>`;
+  if (tab === "shouts") {
+    const shouts = main.querySelector(".shout-list");
+    shouts.scrollTop = shouts.scrollHeight;
+  }
 }
 
 function renderMessages() {

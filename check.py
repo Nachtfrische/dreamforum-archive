@@ -61,6 +61,8 @@ def main():
     assert 'BRD-${board.boardID}' not in script
     assert not any(marker in script for marker in ("USR-", "THR-", "POST-", "SHT-", "COM-", "REG-"))
     assert "requestSubmit()" in script and "shout-list" in script
+    assert ".slice(0, 20).reverse()" in script and "[...payload.shouts].reverse()" in script
+    assert "shouts.scrollTop = shouts.scrollHeight" in script
     assert "search-form input { color: #dceeff" in styles
     assert "🤔" in extras["shouts"][0]["bodyHtml"] and "[:thinkinghard]" not in extras["shouts"][0]["bodyHtml"]
 
