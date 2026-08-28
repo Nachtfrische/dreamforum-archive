@@ -134,6 +134,8 @@ img, svg { display: block; }
 
 .thread-list { border-top: 2px solid var(--ink); }
 .thread-row { min-height: 66px; display: grid; grid-template-columns: minmax(0, 1fr) 170px 145px; gap: 22px; align-items: center; padding: 9px 8px; border-bottom: 1px solid var(--line); color: inherit; text-decoration: none; transition: background 120ms ease; }
+.thread-row.is-sticky { background: rgba(86, 179, 225, .13); }
+.thread-row.is-sticky + .thread-row:not(.is-sticky) { border-top: 5px solid var(--ink); }
 .thread-row:hover { background: rgba(131,221,197,.43); }
 .thread-title, .thread-author, .thread-date, .thread-metrics { display: block; }
 .thread-title { margin: 4px 0 3px; overflow-wrap: anywhere; font: 700 1.14rem/1.1 var(--display); }
@@ -460,6 +462,9 @@ html[data-theme="classic"] .thread-list,
 html[data-theme="classic"] .people-list { border: 1px solid #000; background: #0f131c; }
 html[data-theme="classic"] .thread-row { min-height: 58px; grid-template-columns: minmax(0,1fr) 150px 135px; gap: 14px; padding: 8px 10px; border-bottom: 1px solid #000; color: #b2b7db; background: #0f151c; }
 html[data-theme="classic"] .thread-row:nth-child(even) { background: #0f131c; }
+html[data-theme="classic"] .thread-row.is-sticky { background: #102331; }
+html[data-theme="classic"] .thread-row.is-sticky + .thread-row:not(.is-sticky) { border-top: 5px solid #06517a; }
+html[data-theme="classic"] .thread-row.is-sticky:hover { background: #193348; }
 html[data-theme="classic"] .thread-row:hover,
 html[data-theme="classic"] .person-row:hover { background: #1f2325; }
 html[data-theme="classic"] .thread-title { color: #b2b7db; font: 400 1rem/1.2 "Trebuchet MS", Arial, sans-serif; }

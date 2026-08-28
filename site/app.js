@@ -140,7 +140,7 @@ function pageHeading(title, description, titleHtml = "") {
 }
 
 function threadRow(thread) {
-  return `<a class="thread-row" href="#/thread/${thread.threadID}">
+  return `<a class="thread-row${thread.isSticky ? " is-sticky" : ""}" href="#/thread/${thread.threadID}">
     <span>${thread.isSticky ? '<span class="thread-id">ANGEHEFTET</span>' : ""}<strong class="thread-title">${escapeHtml(thread.topic || "(ohne Titel)")}</strong><span class="thread-author">${userName(thread.userID, thread.username)}</span></span>
     <span class="thread-date">${formatDate(thread.lastPostTime)}</span>
     <span class="thread-metrics"><strong>${formatNumber(thread.replies)} Antworten</strong>${formatNumber(thread.views)} historische Aufrufe</span>

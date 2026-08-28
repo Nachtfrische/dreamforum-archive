@@ -59,6 +59,8 @@ def main():
     assert "Die letzten 16 Beiträge" in script and "classic-shoutbox" in script
     assert "threadPageSize = 20" in script and "renderPostFooter" in script
     assert ".sort(pinnedFirst(sorts[sort] || sorts.newest))" in script
+    assert 'thread-row${thread.isSticky ? " is-sticky" : ""}' in script
+    assert ".thread-row.is-sticky + .thread-row:not(.is-sticky)" in styles
     assert 'BRD-${board.boardID}' not in script
     assert not any(marker in script for marker in ("USR-", "THR-", "POST-", "SHT-", "COM-", "REG-"))
     assert "requestSubmit()" in script and "shout-list" in script
