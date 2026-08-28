@@ -147,6 +147,8 @@ function threadRow(thread) {
   </a>`;
 }
 
+const pinnedFirst = (sorter) => (a, b) => Number(Boolean(b.isSticky)) - Number(Boolean(a.isSticky)) || sorter(a, b);
+
 function classicHome() {
   const shouts = (extras?.shouts || []).slice(0, 20).reverse();
   const latest = [...archive.threads].sort((a, b) => b.lastPostTime - a.lastPostTime).slice(0, 16);
@@ -262,7 +264,7 @@ function renderBoard(boardId, query) {
       }
     });
   }
-  const items = archive.threads.filter((item) => family.has(item.boardID) && (!q || `${item.topic} ${item.username}`.toLocaleLowerCase("de").includes(q))).sort(sorts[sort] || sorts.newest);
+  const items = archive.threads.filter((item) => family.has(item.boardID) && (!q || `${item.topic} ${item.username}`.toLocaleLowerCase("de").includes(q))).sort(pinnedFirst(sorts[sort] || sorts.newest));
   const slice = items.slice((page - 1) * pageSize, page * pageSize);
   const children = archive.boards.filter((item) => item.parentID === boardId);
   main.innerHTML = `<section class="page-banner"><div class="page-shell"><div class="breadcrumbs"><a href="#/boards">Boards</a> / ${escapeHtml(board.title)}</div>${pageHeading(board.title, board.description || `Alle überlieferten Threads dieses Bereichs${family.size > 1 ? " inklusive Unterforen" : ""}.`)}</div></section>
